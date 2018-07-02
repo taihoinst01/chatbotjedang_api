@@ -1,0 +1,54 @@
+
+
+       SELECT WORD 
+            ,SYNONYM 
+     FROM TBL_SYNONYM 
+     WHERE WORD = '힘줄' 
+
+
+       SELECT WORD 
+            ,SYNONYM 
+     FROM TBL_SYNONYM 
+     WHERE WORD = '힘줄' 
+
+
+       SELECT WORD 
+            ,SYNONYM 
+     FROM TBL_SYNONYM 
+     WHERE WORD = '힘줄' 
+
+
+       SELECT WORD 
+            ,SYNONYM 
+     FROM TBL_SYNONYM 
+     WHERE WORD = '힘줄' 
+
+
+       SELECT WORD 
+            ,SYNONYM 
+     FROM TBL_SYNONYM 
+     WHERE WORD = '힘줄' 
+
+
+       SELECT WORD 
+            ,SYNONYM 
+     FROM TBL_SYNONYM 
+     WHERE WORD = '힘줄' 
+
+
+       SELECT WORD 
+            ,SYNONYM 
+     FROM TBL_SYNONYM 
+     WHERE WORD = '힘줄' 
+
+
+       SELECT WORD 
+            ,SYNONYM 
+     FROM TBL_SYNONYM 
+     WHERE WORD = '힘줄' 
+
+
+       UPDATE TBL_WORD_SYNON_SCORE 
+     SET WORD_SYNON_SCORE = (WORD_SYNON_SCORE + 1) 
+     WHERE WORD_SEQ = 힘줄 
+      AND SYNON_SEQ = undefined 

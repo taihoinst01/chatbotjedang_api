@@ -1,0 +1,682 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "v1",
+    "title": "TAIHOINST WEB API",
+    "description": "A TAIHOINST WEB API based on Swagger and built using Node.js"
+  },
+  "paths": {
+    "/v1/synonym/search": {
+      "get": {
+        "tags": [
+          "/V1/SYNONYM/SEARCH"
+        ],
+        "operationId": "SYNONYM_SEARCH_GET",
+        "consumes": [
+          "application/json"
+
+        ],
+        "produces": [
+          "applecation/json"
+
+        ],
+        "parameters": [
+          {
+            "name": "word",
+            "in": "query",
+            "description": "search Synonym",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "description": "유의어 조회",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object",
+              "items": {
+                "$ref": "#/definitions/RESULTS"
+              }
+            }
+          }
+        },
+        "deprecated": false
+      },
+      "put": {
+        "operationId": "SYNONYM_SEARCH_PUT",
+        "tags": [
+          "/V1/SYNONYM/SEARCH"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "datas",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/SYNONYM_SEARCH_PUT"
+              }
+            }
+          }
+        ],
+        "description": "유의어 데이터 수정",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object",
+              "items": {
+                "$ref": "#/definitions/RESULTS"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/v1/synonym/handleWordSynon": {
+      "get": {
+        "tags": [
+          "/V1/SYNONYM/HANDLEWORDSYNON"
+        ],
+        "operationId": "WORD_SYNON_LIST_SEARCH_GET",
+        "consumes": [
+          "application/json"
+        ],
+        "produces": [
+          "applecation/json"
+        ],
+        "parameters": [
+          {
+            "name": "word",
+            "in": "query",
+            "description": "search Word Synonym List",
+            "required": false,
+            "type": "string"
+          }
+        ],
+        "description": "유의어 목록 조회",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object",
+              "items": {
+                "$ref": "#/definitions/RESULTS"
+              }
+            }
+          }
+        },
+        "deprecated": false
+      },
+      "post": {
+        "operationId": "WORD_SYNON_SCORE_INSERT_POST",
+        "tags": [
+          "/V1/SYNONYM/HANDLEWORDSYNON"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "datas",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/HANDLE_WORD_SYNON_SCORE_PARAMS"
+              }
+            }
+          }
+        ],
+        "description": "유의어 데이터 등록",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object",
+              "items": {
+                "$ref": "#/definitions/WORD_SYNON_LIST_RESULTS"
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "operationId": "WORD_SYNON_SCORE_UPDATE_PUT",
+        "tags": [
+          "/V1/SYNONYM/HANDLEWORDSYNON"
+        ],
+        "produces": [
+          "application/json"
+        ],
+        "consumes": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "datas",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/HANDLE_WORD_SYNON_SCORE_PARAMS"
+              }
+            }
+          }
+        ],
+        "description": "유의어 데이터 수정",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "object",
+              "items": {
+                "$ref": "#/definitions/WORD_SYNON_LIST_RESULTS"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "parameters": {
+    "agentParam": {
+      "name": "Agent-Key",
+      "in": "header",
+      "description": "agent Identifier...",
+      "required": true,
+      "type": "string",
+      "default": "30748F97-429A-443B-BC66-9A32AD20B07F"
+    },
+    "pageParam": {
+      "name": "page",
+      "in": "query",
+      "description": "page...",
+      "required": false,
+      "type": "integer",
+      "format": "int32"
+    },
+    "userParam": {
+      "name": "user",
+      "in": "query",
+      "description": "user...",
+      "required": false,
+      "type": "string"
+    },
+    "senderParam": {
+      "name": "user",
+      "in": "query",
+      "description": "user...",
+      "required": true,
+      "type": "string"
+    },
+    "msgParam": {
+      "name": "id",
+      "in": "path",
+      "description": "message identifier...",
+      "required": true,
+      "type": "string"
+    }
+  },
+  "securityDefinitions": {
+    "apikeyQuery": {
+      "type": "apiKey",
+      "in": "header",
+      "name": "QUERY-API-KEY"
+    },
+    "userSecurity": {
+      "type": "apiKey",
+      "in": "header",
+      "name": "USER-API-KEY"
+    },
+    "adminSecurity": {
+      "type": "apiKey",
+      "in": "header",
+      "name": "ADMIN-API-KEY"
+    },
+    "agentSecurity": {
+      "type": "apiKey",
+      "in": "header",
+      "name": "AGENT-API-KEY"
+    },
+    "mediaSecurity": {
+      "type": "apiKey",
+      "in": "query",
+      "name": "MEDIA-API-KEY"
+    }
+  },
+  "definitions": {
+    "RESULTS": {
+      "type": "object",
+      "properties": {
+        "status": {
+          "type": "string"
+        },
+        "description": {
+          "type": "string"
+        },
+        "datas": {
+          "type": "object"
+        }
+      }
+    },
+    "SYNONYM_SEARCH_PUT": {
+      "type": "object",
+      "properties": {
+        "word": {
+          "type": "string"
+        },
+        "synonym": {
+          "type": "string"
+        }
+      }
+    },
+    "HANDLE_WORD_SYNON_SCORE_PARAMS": {
+      "type": "object",
+      "properties": {
+        "word": {
+          "type": "string"
+        },
+        "wordSynon": {
+          "type": "string"
+        },
+        "wordSeq": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "synonSeq": {
+          "type": "integer",
+          "format": "int64"
+        }
+      }
+    },
+    "FAXTIME_SDK_SMS_DATA_POST": {
+      "type": "object",
+      "properties": {
+        "chkReserve": {
+          "type": "string"
+        },
+        "sTitle": {
+          "type": "string"
+        },
+        "vmessage": {
+          "type": "string"
+        },
+        "revDttm": {
+          "type": "string"
+        },
+        "vsourcetel": {
+          "type": "string"
+        },
+        "vreceiver": {
+          "type": "string"
+        },
+        "vdestinationtel": {
+          "type": "string"
+        }
+      }
+    },
+    "FAXTIME_SDK_SMS_DATA_PUT": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        },
+        "chkReserve": {
+          "type": "string"
+        },
+        "sTitle": {
+          "type": "string"
+        },
+        "vmessage": {
+          "type": "string"
+        },
+        "revDttm": {
+          "type": "string"
+        },
+        "vsourcetel": {
+          "type": "string"
+        },
+        "vreceiver": {
+          "type": "string"
+        },
+        "vdestinationtel": {
+          "type": "string"
+        }
+      }
+    },
+    "FAXTIME_SDK_SMS_DATA_DELETE": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        }
+      }
+    },
+    "FAXTIME_SDK_MMS_DATA_POST": {
+      "type": "object",
+      "properties": {
+        "chkReserve": {
+          "type": "string"
+        },
+        "sTitle": {
+          "type": "string"
+        },
+        "vmessage": {
+          "type": "string"
+        },
+        "revDttm": {
+          "type": "string"
+        },
+        "vsourcetel": {
+          "type": "string"
+        },
+        "vreceiver": {
+          "type": "string"
+        },
+        "vdestinationtel": {
+          "type": "string"
+        },
+        "file_cnt": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "file_path": {
+          "type": "string"
+        }
+      }
+    },
+    "FAXTIME_SDK_MMS_DATA_PUT": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        },
+        "chkReserve": {
+          "type": "string"
+        },
+        "sTitle": {
+          "type": "string"
+        },
+        "vmessage": {
+          "type": "string"
+        },
+        "revDttm": {
+          "type": "string"
+        },
+        "vsourcetel": {
+          "type": "string"
+        },
+        "vreceiver": {
+          "type": "string"
+        },
+        "vdestinationtel": {
+          "type": "string"
+        },
+        "file_cnt": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "file_path": {
+          "type": "string"
+        }
+      }
+    },
+    "FAXTIME_SDK_MMS_DATA_DELETE": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "user": {
+          "type": "string"
+        }
+      }
+    },
+    "FAXTIME_FC_FAX_META_POST": {
+      "type": "object",
+      "properties": {
+        "chkReserve": {
+          "type": "string"
+        },
+        "revDttm": {
+          "type": "string"
+        },
+        "sTitle": {
+          "type": "string"
+        },
+        "msgCnt": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "senderPh": {
+          "type": "string"
+        },
+        "fFileName": {
+          "type": "string"
+        },
+        "fFileSize": {
+          "type": "string"
+        },
+        "fFilePageCnt": {
+          "type": "string"
+        },
+        "chkResultSms": {
+          "type": "string"
+        },
+        "vsourcetel": {
+          "type": "string"
+        },
+        "chkResultEmail": {
+          "type": "string"
+        },
+        "vemail": {
+          "type": "string"
+        },
+        "sendingmass": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "target": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FAXTIME_FC_FAX_MSG_POST"
+          }
+        }
+      }
+    },
+    "FAXTIME_FC_FAX_MSG_POST": {
+      "type": "object",
+      "properties": {
+        "sRName": {
+          "type": "string"
+        },
+        "sFaxNo": {
+          "type": "string"
+        },
+        "chkResultSms": {
+          "type": "string"
+        }
+      }
+    },
+    "FAXTIME_FC_FAX_META_PUT": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "user": {
+          "type": "string"
+        },
+        "chkReserve": {
+          "type": "string"
+        },
+        "revDttm": {
+          "type": "string"
+        },
+        "sTitle": {
+          "type": "string"
+        },
+        "senderPh": {
+          "type": "string"
+        },
+        "chkResultSms": {
+          "type": "string"
+        },
+        "vsourcetel": {
+          "type": "string"
+        },
+        "chkResultEmail": {
+          "type": "string"
+        },
+        "vemail": {
+          "type": "string"
+        },
+        "target": {
+          "type": "array",
+          "items": {
+            "$ref": "#/definitions/FAXTIME_FC_FAX_MSG_PUT"
+          }
+        }
+      }
+    },
+    "FAXTIME_FC_FAX_MSG_PUT": {
+      "type": "object",
+      "properties": {
+        "serialNo": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "sRName": {
+          "type": "string"
+        },
+        "sFaxNo": {
+          "type": "string"
+        },
+        "chkResultSms": {
+          "type": "string"
+        }
+      }
+    },
+    "FAXTIME_FC_FAX_DATA_DELETE": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "user": {
+          "type": "string"
+        }
+      }
+    },
+    "ALIMTALK_TBL_REQUEST_DATA_POST": {
+      "type": "object",
+      "properties": {
+        "message_type": {
+          "type": "string"
+        },
+        "phn": {
+          "type": "string"
+        },
+        "msg": {
+          "type": "string"
+        },
+        "chkReserve": {
+          "type": "string"
+        },
+        "chkBudal": {
+          "type": "string"
+        },
+        "msgCont01": {
+          "type": "string"
+        },
+        "selReplyNum01": {
+          "type": "string"
+        },
+        "tmpl_id": {
+          "type": "string"
+        },
+        "selYellowId01": {
+          "type": "string"
+        },
+        "revDttm": {
+          "type": "string"
+        },
+        "remark1": {
+          "type": "string"
+        }
+      }
+    },
+    "ALIMTALK_TBL_REQUEST_DATA_PUT": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "phn": {
+          "type": "string"
+        },
+        "msg": {
+          "type": "string"
+        },
+        "chkReserve": {
+          "type": "string"
+        },
+        "chkBudal": {
+          "type": "string"
+        },
+        "msgCont01": {
+          "type": "string"
+        },
+        "selReplyNum01": {
+          "type": "string"
+        },
+        "tmpl_id": {
+          "type": "string"
+        },
+        "revDttm": {
+          "type": "string"
+        },
+        "remark1": {
+          "type": "string"
+        }
+      }
+    },
+    "ALIMTALK_TBL_REQUEST_DATA_DELETE": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer",
+          "format": "int64"
+        },
+        "user": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

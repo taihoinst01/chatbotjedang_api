@@ -1,0 +1,6 @@
+C:\Users\p4104\source\repos\SynonymAPI\SynonymAPI\obj\Debug\SynonymAPI.njsprojAssemblyReference.cache
+C:\Users\p4104\source\repos\SynonymAPI\SynonymAPI\obj\Debug\SynonymAPI.njsproj.CoreCompileInputs.cache
+C:\Users\p4104\source\repos\SynonymAPI\SynonymAPI\bin\Microsoft.NodejsTools.WebRole.dll
+C:\Users\user\source\repos\SynonymAPI\SynonymAPI\obj\Debug\SynonymAPI.njsprojAssemblyReference.cache
+C:\Users\user\source\repos\SynonymAPI\SynonymAPI\obj\Debug\SynonymAPI.njsproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\SynonymAPI\SynonymAPI\bin\Microsoft.NodejsTools.WebRole.dll

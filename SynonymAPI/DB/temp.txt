@@ -1,0 +1,72 @@
+
+
+
+SELECT 
+WORD, CNT
+FROM (SELECT WORD, COUNT(1) CNT FROM TBL_SYNONYM GROUP BY WORD, SYNONYM) XX
+WHERE XX.CNT > 1
+;
+
+select * From tbl_synonym where word = '°í¿ëÀÚ';
+select * From tbl_synonym where word = '±«±â';
+select * From tbl_synonym where word = '°­¸Å';
+select * From tbl_synonym where word = 'µş¶û';
+select * From tbl_synonym where word = '°øÇ¥';
+select * From tbl_synonym where word = '´Ş¶û';
+select * From tbl_synonym where word = 'º¡²ıº¡²ı';
+select * From tbl_synonym where word = 'Çª½½Çª½½';
+select * From tbl_synonym where word = 'ºñÂß¹èÂß';
+select * From tbl_synonym where word = 'ºñÂßºñÂß';
+select * From tbl_synonym where word = 'ºñÁ×¹èÁ×';
+select * From tbl_synonym where word = 'ºñÁ×ºñÁ×';
+select * From tbl_synonym where word = '°í»ç';
+select * From tbl_synonym where word = 'À¯ÇĞ';
+select * From tbl_synonym where word = 'Áö»ó';
+select * From tbl_synonym where word = 'ºÎ½½ºÎ½½';
+
+delete from tbl_synonym where word = '°í¿ëÀÚ' and synonym = '°í¿ëÀÎ';
+delete from tbl_synonym where word = '±«±â' and synonym = '±«»ó,±«±â';
+delete from tbl_synonym where word = '°­¸Å' and synonym = '´Á¸Å';
+delete from tbl_synonym where word = 'µş¶û' and synonym = '´Ş¶û';
+delete from tbl_synonym where word = '°øÇ¥' and synonym = 'µ¿±×¶ó¹ÌÇ¥';
+delete from tbl_synonym where word = '´Ş¶û' and synonym = 'µş¶û';
+delete from tbl_synonym where word = 'º¡²ıº¡²ı' and synonym = 'º¡±ßº¡±ß';
+delete from tbl_synonym where word = 'Çª½½Çª½½' and synonym = 'ºÎ½½ºÎ½½';
+delete from tbl_synonym where word = 'ºñÂß¹èÂß' and synonym = 'ºñÁ×¹èÁ×';
+delete from tbl_synonym where word = 'ºñÂßºñÂß' and synonym = 'ºñÁ×ºñÁ×';
+delete from tbl_synonym where word = 'ºñÁ×¹èÁ×' and synonym = 'ºñÂß¹èÂß';
+delete from tbl_synonym where word = 'ºñÁ×ºñÁ×' and synonym = 'ºñÂßºñÂß,»ßÂß»ßÂß,»ßÁ×»ßÁ×';
+delete from tbl_synonym where word = '°í»ç' and synonym = '¿¾ÀÏ';
+delete from tbl_synonym where word = 'À¯ÇĞ' and synonym = 'À¯ÇĞ';
+delete from tbl_synonym where word = 'Áö»ó' and synonym = 'Áö¸é';
+delete from tbl_synonym where word = 'ºÎ½½ºÎ½½' and synonym = 'Çª½½Çª½½';
+
+insert into tbl_synonym (word, synonym) values ('°í¿ëÀÚ', '°í¿ëÀÎ');
+insert into tbl_synonym (word, synonym) values ('±«±â', '±«»ó,±«±â');
+insert into tbl_synonym (word, synonym) values ('°­¸Å', '´Á¸Å');
+insert into tbl_synonym (word, synonym) values ('µş¶û', '´Ş¶û');
+insert into tbl_synonym (word, synonym) values ('°øÇ¥', 'µ¿±×¶ó¹ÌÇ¥');
+insert into tbl_synonym (word, synonym) values ('´Ş¶û', 'µş¶û');
+insert into tbl_synonym (word, synonym) values ('º¡²ıº¡²ı', 'º¡±ßº¡±ß');
+insert into tbl_synonym (word, synonym) values ('Çª½½Çª½½', 'ºÎ½½ºÎ½½');
+insert into tbl_synonym (word, synonym) values ('ºñÂß¹èÂß', 'ºñÁ×¹èÁ×');
+insert into tbl_synonym (word, synonym) values ('ºñÂßºñÂß', 'ºñÁ×ºñÁ×');
+insert into tbl_synonym (word, synonym) values ('ºñÁ×¹èÁ×', 'ºñÂß¹èÂß');
+insert into tbl_synonym (word, synonym) values ('ºñÁ×ºñÁ×', 'ºñÂßºñÂß,»ßÂß»ßÂß,»ßÁ×»ßÁ×');
+insert into tbl_synonym (word, synonym) values ('°í»ç', '¿¾ÀÏ');
+insert into tbl_synonym (word, synonym) values ('À¯ÇĞ', 'À¯ÇĞ');
+insert into tbl_synonym (word, synonym) values ('Áö»ó', 'Áö¸é');
+insert into tbl_synonym (word, synonym) values ('ºÎ½½ºÎ½½', 'Çª½½Çª½½');
+
+
+-- À¯ÀÇ¾î »èÁ¦
+DELETE FROM TBL_WORD_SYNON_SCORE WHERE SYNON_SEQ = 76426
+-- À¯ÀÇ¾î ¸ñ·Ï Á¶È¸
+SELECT * FROM TBL_WORD_SYNON_SCORE WHERE WORD_SEQ = 10001
+-- À¯ÀÇ¾î ´Ü°Ç Á¶È¸
+SELECT * FROM TBL_WORD_SYNON_SCORE WHERE WORD_SEQ = 10001 AND SYNON_SEQ = 68765
+-- À¯ÀÇ¾î ´Ü°Ç ½ºÄÚ¾î ¼öÁ¤
+UPDATE TBL_WORD_SYNON_SCORE SET WORD_SYNON_SCORE = 0 WHERE WORD_SEQ = 10001 AND SYNON_SEQ = 68765
+
+
+

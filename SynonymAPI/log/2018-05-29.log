@@ -1,0 +1,1272 @@
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '배달' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '조회' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       UPDATE TBL_WORD_SYNON_SCORE 
+     SET WORD_SYNON_SCORE = (WORD_SYNON_SCORE + 1) 
+     WHERE WORD_SEQ = 27650 
+      AND SYNON_SEQ = 35595 
+
+
+       SELECT SS.WORD_SEQ as wordSeq,     
+            SS.SYNON_SEQ as synonSeq,   
+            SS.WORD as word,            
+            SS.WORD_SYNON as wordSynon, 
+            SS.WORD_SYNON_SCORE as wordSynonScore, 
+            SS.SYNONYM as synonym       
+     FROM TBL_WORD_SYNON_SCORE SS       
+     WHERE SS.WORD = '중국' 
+     ORDER BY SS.WORD_SEQ, SS.WORD_SYNON_SCORE DESC, SS.SYNON_SEQ 
+
+
+       UPDATE TBL_WORD_SYNON_SCORE 
+     SET WORD_SYNON_SCORE = (WORD_SYNON_SCORE + 1) 
+     WHERE WORD_SEQ = 27650 
+      AND SYNON_SEQ = 35595 
+
+
+       UPDATE TBL_WORD_SYNON_SCORE 
+     SET WORD_SYNON_SCORE = (WORD_SYNON_SCORE + 1) 
+     WHERE WORD_SEQ = 27650 
+      AND SYNON_SEQ = 35595 
